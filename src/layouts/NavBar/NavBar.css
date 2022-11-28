@@ -1,0 +1,11 @@
+.nav{
+    height:70px;
+}
+.nav-align{
+    position: relative;
+    left: 4em;
+}
+.logo-align{
+    position: relative;
+    right:2em;
+}

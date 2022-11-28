@@ -1,0 +1,18 @@
+.contain{
+    position:absolute;
+}
+.textAlign{
+    width:15em;
+    height:7em;
+    font-weight:bold;
+}
+.align-text{
+    bottom:6em;
+    position:relative;
+}
+.text{
+    margin-top:15px;
+}
+.label-color{
+    color:black;
+    }

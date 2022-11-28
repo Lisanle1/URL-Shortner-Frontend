@@ -1,0 +1,10 @@
+.col-contain{
+    position: relative;
+    right: 35px;
+    top:0;
+    /* left:0; */
+    bottom:0;
+}
+.row-align{
+    width:205vh;
+}
