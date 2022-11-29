@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import axios from "axios";
+import './VerifyEmail.css'
 import { useSearchParams } from "react-router-dom";
 import bg from "../assests/images/bg-01.jpg";
 
@@ -28,21 +29,21 @@ function VerifyEmail() {
     <>
       <div className="limiter">
         <div
-          className="container-login100"
+          className="container-login100 "
           style={{ backgroundImage: `url(${bg})` }}
         >
-          <div className="wrap-login100 p-l-55 p-r-55 p-t-35 p-b-64 m-b-20">
-            <h2 className="wrap-login100 m-l-40">
+          <div className="wrap-login100 wrap-align">
+            <h2 className="wrap-login100 h-wrap">
               Email Verified Successfully
             </h2>
-            <span className="wrap-login100 m-l-152">
+            <span className="wrap-login100 m-l-168">
               <i
-                style={{ height: "5em", width: "4em" }}
-                className="fas fa-check-circle"
+                
+                className="fas fa-check-circle circle-align "
               ></i>
             </span>
             <br />
-            <span className="wrap-login100  m-l-118">
+            <span className="wrap-login100 m-l-131">
               <strong>you can login now</strong>
             </span>
             <br />
